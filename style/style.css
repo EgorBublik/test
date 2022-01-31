@@ -13,6 +13,8 @@ main {
 
 .top-name {
     border-width: 90%;
+    padding: 15px 0 5px 15px;
+
 }
 
 .input-send-message {

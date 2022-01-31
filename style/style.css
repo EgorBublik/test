@@ -1,0 +1,104 @@
+main {
+    margin-top: 15px;
+}
+
+.left-block {
+    margin-top: 15px;
+    min-height: 60vh;
+    width: 49%;
+    margin: 5px auto;
+    border: 1px solid blue;
+    min-width: 600px;
+}
+
+.top-name {
+    border-width: 90%;
+}
+
+.input-send-message {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 38vw;
+}
+
+.input-send-message textarea {
+    width: 87%;
+    min-width: 570px;
+    padding: 10px;
+}
+
+.dialog {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    margin: auto;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-width: 90%;
+    overflow: auto;
+    height: 250px;
+}
+
+.send-message {
+    width: 10px;
+}
+
+.btn-block button {
+    width: 100%;
+}
+
+.btn-sample {
+    border: 1px solid blue;
+}
+
+.btn-sample .fa-caret-down {
+    margin-left: 5px;
+}
+
+.right-block {
+    min-height: 60vh;
+    width: 49%;
+    margin: 5px auto;
+    min-width: 600px;
+}
+
+.right-block-bottom, .right-block-top {
+    margin: auto auto 10px auto;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.date {
+    text-align: center;
+    padding: 5px 0 0 0 ;
+    font-size: 1.9vh;
+}
+
+.table tr, .table th, .table td {
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+.first-row {
+    color: blue;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.message {
+    width: 87vw;
+}
+
+.time-message {
+    color: lightgray;
+}
+
+.first-person-name {
+    padding-top: 10px;
+    color: deepskyblue;
+}
+
+.second-person-name {
+    padding-top: 10px;
+    color: rgb(255, 179, 0);
+}
+

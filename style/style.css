@@ -36,8 +36,12 @@ main {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     border-width: 90%;
-    overflow: auto;
     height: 250px;
+}
+
+.dialog:hover {
+    overflow-y: auto;
+	overflow-x: hidden;
 }
 
 .send-message {
@@ -46,6 +50,7 @@ main {
 
 .btn-block button {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .btn-sample {
@@ -61,6 +66,7 @@ main {
     width: 49%;
     margin: 5px auto;
     min-width: 600px;
+    padding: 0;
 }
 
 .right-block-bottom, .right-block-top {
@@ -72,7 +78,6 @@ main {
 .date {
     text-align: center;
     padding: 5px 0 0 0 ;
-    font-size: 1.9vh;
 }
 
 .table tr, .table th, .table td {
@@ -82,12 +87,11 @@ main {
 
 .first-row {
     color: blue;
-    font-size: 2vh;
     font-weight: bold;
 }
 
 .message {
-    width: 87vw;
+    width: 90%;
 }
 
 .time-message {

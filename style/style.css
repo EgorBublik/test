@@ -4,7 +4,7 @@ main {
 
 .left-block {
     margin-top: 15px;
-    min-height: 60vh;
+    /* min-height: 60vh; */
     width: 49%;
     margin: 5px auto;
     border: 1px solid blue;
@@ -20,28 +20,29 @@ main {
 .input-send-message {
     padding-top: 10px;
     margin-bottom: 10px;
-    width: 38vw;
+    width: 100%;
 }
 
 .input-send-message textarea {
-    width: 87%;
+    width: 100%;
     min-width: 570px;
     padding: 10px;
 }
 
 .dialog {
     margin: 10px 0 10px 0;
-    padding: 15px;
+    padding: 10px 25px;
     margin: auto;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     border-width: 90%;
     height: 250px;
+    overflow: hidden;
 }
 
 .dialog:hover {
     overflow-y: auto;
-	overflow-x: hidden;
+    padding-right: 10px;
 }
 
 .send-message {

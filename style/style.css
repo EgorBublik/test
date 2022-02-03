@@ -4,22 +4,26 @@ main {
 
 .left-block {
     margin-top: 15px;
-    /* min-height: 60vh; */
     width: 49%;
     margin: 5px auto;
-    border: 1px solid blue;
+    border: 2px solid #b8ccd3;
     min-width: 600px;
 }
 
 .top-name {
     border-width: 90%;
     padding: 15px 0 5px 15px;
-
+    border-bottom: 1px solid lightgray;
+    border-width: 90%;
+    margin-bottom: 20px;
 }
 
 .input-send-message {
+    border-top: 1px solid lightgray;
+    border-width: 90%;
     padding-top: 10px;
     margin-bottom: 10px;
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -27,22 +31,25 @@ main {
     width: 100%;
     min-width: 570px;
     padding: 10px;
+    height: 200px;
 }
 
 .dialog {
     margin: 10px 0 10px 0;
-    padding: 10px 25px;
+    padding: 0 25px;
     margin: auto;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    border-width: 90%;
-    height: 250px;
+    height: 400px;
     overflow: hidden;
 }
 
 .dialog:hover {
     overflow-y: auto;
     padding-right: 10px;
+}
+
+.dialog img {
+    height: 250px;
+    width: 380px;
 }
 
 .send-message {
@@ -55,7 +62,7 @@ main {
 }
 
 .btn-sample {
-    border: 1px solid blue;
+    border: 1px solid #047cf4;
 }
 
 .btn-sample .fa-caret-down {
@@ -73,7 +80,19 @@ main {
 .right-block-bottom, .right-block-top {
     margin: auto auto 10px auto;
     padding: 10px;
-    border: 1px solid blue;
+    border: 2px solid #b8ccd3;
+}
+
+
+.right-block-top-header button {
+    height: 35px;
+    width: 45px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+
+.right-btn-date {
+    padding-left: 5px;
 }
 
 .date {
@@ -84,10 +103,16 @@ main {
 .table tr, .table th, .table td {
     border: 1px solid lightgray;
     text-align: center;
+    padding: 4px;
+}
+
+.table th {
+    font-weight: normal;
+    letter-spacing: 0.5px;
 }
 
 .first-row {
-    color: blue;
+    color: #3c9cc3;
     font-weight: bold;
 }
 
@@ -101,11 +126,14 @@ main {
 
 .first-person-name {
     padding-top: 10px;
-    color: deepskyblue;
+    color: #8bc9f0;
 }
 
 .second-person-name {
     padding-top: 10px;
-    color: rgb(255, 179, 0);
+    color: #d9a865;
 }
 
+.right-block-bottom h5 {
+    font-weight: 500;
+}
